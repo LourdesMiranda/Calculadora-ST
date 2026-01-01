@@ -3,9 +3,22 @@ body{
 }
 
 .container{
-    background-image: url('img/fondo_calcugorgon.png');
-    width: 440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/fondo_calcugorgon.png');
+    border: 2px solid #e20000; 
+    border-radius: 10px;
+    box-shadow: 
+        inset 0 0 10px #5e0000,      
+        0 0 5px #ff0000,             
+        0 0 15px #e20000,            
+        0 0 30px #8a0000;            
+    width: 450px;
     margin-top: 20px;
+}
+
+.grid-container{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 button{
@@ -14,8 +27,47 @@ button{
     border: 0px;
 }
 
+.buttonsize1{
+    margin-top: 0%;
+    top: 20px;
+}
+
+
+
+.grid16{
+    grid-column: 4 / 4;
+    grid-row: 4 / 6;
+}
+
+.grid17{
+    grid-column: 1 / 3;
+    grid-row: 5 / 5;
+}
+
 img{
     background-color: transparent;
     width: 100px;
     height: 100px;
+}
+
+img:hover{
+    border: 2px solid #e20000; 
+    border-radius: 10px;
+    box-shadow: 
+        inset 0 0 10px #5e0000,      
+        0 0 5px #ff0000,             
+        0 0 15px #e20000,            
+        0 0 30px #8a0000;     
+}
+
+.imgsize{
+    top: 20px;
+    width: 130px;
+    height: 195px;
+}
+
+.imgsize2{
+    width: 180px;
+    height: 130px;
+
 }
