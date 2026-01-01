@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.container{
+    background-image: url('img/fondo_calcugorgon.png');
+    width: 440px;
+    margin-top: 20px;
+}
+
+button{
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+}
+
+img{
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+}
